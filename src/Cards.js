@@ -1,6 +1,6 @@
 function Card(props) {
   return (
-    <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+    <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 text-center ">
       <div className="card mb-4 box-shadow "  >
         <div className="card-header">
           <h4 className="my-0 font-weight-normal">{props.data.tittle}</h4>
